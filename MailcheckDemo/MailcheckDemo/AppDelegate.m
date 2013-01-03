@@ -8,6 +8,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Mailcheck.h"
 
 @implementation AppDelegate
 
@@ -17,10 +18,30 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     
+    self.textField = [[UITextField alloc] initWithFrame:CGRectMake(20, 30, 280, 20)];
+    self.textField.placeholder = @"test@example.com";
+    [self.window addSubview:self.textField];
     
+    self.checkButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [self.checkButton setTitle:@"Check" forState:UIControlStateNormal];
+    [self.checkButton addTarget:self action:@selector(check:) forControlEvents:UIControlEventTouchUpInside];
+    self.checkButton.frame = CGRectMake(20, 60, 280, 40);
+    [self.window addSubview:self.checkButton];
+    
+    self.resultLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 110, 280, 20)];
+    [self.window addSubview:self.resultLabel];
     
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+-(void)check:(id)sender {
+    NSDictionary *result = [Mailcheck suggest:self.textField.text];
+    if (result) {
+        self.resultLabel.text = [NSString stringWithFormat:@"Did you mean %@?", result[@"full"]];
+    } else {
+        self.resultLabel.text = @"No suggestion found";
+    }
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

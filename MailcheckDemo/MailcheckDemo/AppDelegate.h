@@ -12,6 +12,8 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-@property (strong, nonatomic) 
+@property (strong, nonatomic) UITextField *textField;
+@property (strong, nonatomic) UIButton *checkButton;
+@property (strong, nonatomic) UILabel *resultLabel;
 
 @end
