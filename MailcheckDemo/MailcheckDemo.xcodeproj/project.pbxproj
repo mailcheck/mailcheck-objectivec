@@ -28,6 +28,7 @@
 		63A13F601696357E007BB27E /* TestMailcheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A13F5F1696357E007BB27E /* TestMailcheck.m */; };
 		63A13F63169635BB007BB27E /* Mailcheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A13F6216963589007BB27E /* Mailcheck.m */; };
 		63A13F64169635C6007BB27E /* Mailcheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A13F6216963589007BB27E /* Mailcheck.m */; };
+		63B79CCF169640D6009EBA25 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B79CCE169640D6009EBA25 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		63A13F5F1696357E007BB27E /* TestMailcheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestMailcheck.m; sourceTree = "<group>"; };
 		63A13F6116963589007BB27E /* Mailcheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mailcheck.h; sourceTree = "<group>"; };
 		63A13F6216963589007BB27E /* Mailcheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mailcheck.m; sourceTree = "<group>"; };
+		63B79CCE169640D6009EBA25 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63B79CCF169640D6009EBA25 /* QuartzCore.framework in Frameworks */,
 				63A13F4416963253007BB27E /* UIKit.framework in Frameworks */,
 				63A13F4516963253007BB27E /* Foundation.framework in Frameworks */,
 				63A13F4616963253007BB27E /* CoreGraphics.framework in Frameworks */,
@@ -86,6 +89,7 @@
 		63A13F12169631EE007BB27E = {
 			isa = PBXGroup;
 			children = (
+				63B79CCE169640D6009EBA25 /* QuartzCore.framework */,
 				63A13F27169631EE007BB27E /* MailcheckDemo */,
 				63A13F4716963253007BB27E /* Tests */,
 				63A13F20169631EE007BB27E /* Frameworks */,
@@ -385,6 +389,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -401,6 +409,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -425,6 +437,7 @@
 				63A13F3D169631EF007BB27E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63A13F5916963253007BB27E /* Build configuration list for PBXNativeTarget "Tests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +446,7 @@
 				63A13F5B16963253007BB27E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
