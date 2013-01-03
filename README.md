@@ -10,6 +10,7 @@ Usage
 Copy mailcheck.h and mailcheck.m from the Library folder to your project.
 
 ```Objective-C
+#import "Mailcheck.h"
 NSDictionary *result = [Mailcheck suggest:@"test@hotnail.com"]
 ```
 
