@@ -21,4 +21,4 @@ Otherwise the suggestion will be a dictionary like this:
  @"full":    @"test@hotmail.com"}
 ```
 
-Check the MailcheckDemo or the GHUnit tests in TestMailcheck.m for more usage examples. You can run the tests by loading the demo project and selecting the Tests target.
+Check the MailcheckDemo or the GHUnit tests in TestMailcheck.m for more usage examples. You can run the tests by loading the demo project and selecting the Tests scheme.
