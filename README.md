@@ -7,7 +7,7 @@ Objective-C port of https://github.com/Kicksend/mailcheck
 Usage
 -----
 
-Copy mailcheck.h and mailcheck.m from the Library folder to your project.
+Copy mailcheck.h and mailcheck.m from the Mailcheck folder to your project.
 
 ```Objective-C
 #import "Mailcheck.h"
