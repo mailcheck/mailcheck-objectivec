@@ -3,7 +3,6 @@
 //  Frost
 //
 //  Created by David Kasper on 1/3/13.
-//  Copyright (c) 2013 Mixbook. All rights reserved.
 //  Licensed under the MIT License.
 //
 
