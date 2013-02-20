@@ -37,7 +37,7 @@ static int threshold;
             if(emailParts[@"domain"] && closestTopLevelDomain && ![closestTopLevelDomain isEqualToString:emailParts[@"topLevelDomain"]]) {
                 NSString *domain = emailParts[@"domain"];
                 NSRange lastRange = [domain rangeOfString:emailParts[@"topLevelDomain"] options:NSBackwardsSearch];
-                closestDomain = [[domain substringWithRange:NSMakeRange(0, lastRange.location)] stringByAppendingString:closestTopLevelDomain];
+                closestDomain = [[domain substringWithRange:NSMakeRange(0, MIN(domain.length, lastRange.location))] stringByAppendingString:closestTopLevelDomain];
                 return @{@"address": emailParts[@"address"], @"domain": closestDomain, @"full": [emailParts[@"address"] stringByAppendingFormat:@"@%@",closestDomain]};
             }
         }
