@@ -22,13 +22,14 @@
     self.textField.placeholder = @"test@example.com";
     [self.window addSubview:self.textField];
     
-    self.checkButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    self.checkButton = [UIButton buttonWithType:UIButtonTypeSystem];
     [self.checkButton setTitle:@"Check" forState:UIControlStateNormal];
     [self.checkButton addTarget:self action:@selector(check:) forControlEvents:UIControlEventTouchUpInside];
     self.checkButton.frame = CGRectMake(20, 60, 280, 40);
     [self.window addSubview:self.checkButton];
     
-    self.resultLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 110, 280, 20)];
+    self.resultLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 110, 280, 60)];
+    self.resultLabel.numberOfLines = 3;
     [self.window addSubview:self.resultLabel];
     
     [self.window makeKeyAndVisible];
@@ -36,11 +37,11 @@
 }
 
 -(void)check:(id)sender {
-    NSDictionary *result = [Mailcheck suggest:self.textField.text];
-    if (result) {
-        self.resultLabel.text = [NSString stringWithFormat:@"Did you mean %@?", result[@"full"]];
+    NSDictionary *result = [Mailcheck check:self.textField.text extraDomains:nil extraTopLevelDomains:nil];
+    if (result[@"suggestion"]) {
+        self.resultLabel.text = [NSString stringWithFormat:@"Did you mean %@?.\nValid: %d", result[@"suggestion"][@"full"], [result[@"valid"] boolValue]];
     } else {
-        self.resultLabel.text = @"No suggestion found";
+        self.resultLabel.text = [NSString stringWithFormat:@"No suggestion found.\nValid email: %d", [result[@"valid"] boolValue]];
     }
 }
 

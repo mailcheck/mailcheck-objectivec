@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0B9C4E56-A3FB-42B4-A766-A0DD83CBD609</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MailcheckDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D73DED85-7A2E-4FC9-B81A-9257CA9BC086</key>
+		<string>ssh://github.com/dkasper/Mailcheck-ObjectiveC.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MailcheckDemo/MailcheckDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D73DED85-7A2E-4FC9-B81A-9257CA9BC086</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/dkasper/Mailcheck-ObjectiveC.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D73DED85-7A2E-4FC9-B81A-9257CA9BC086</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D73DED85-7A2E-4FC9-B81A-9257CA9BC086</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Mailcheck-ObjectiveC</string>
+		</dict>
+	</array>
+</dict>
+</plist>

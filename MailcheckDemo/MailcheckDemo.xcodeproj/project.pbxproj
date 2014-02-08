@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43BB78A9A5344A499B3B8BBA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74459E94E2ED460EB0F22F61 /* libPods.a */; };
 		63A13F22169631EE007BB27E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A13F21169631EE007BB27E /* UIKit.framework */; };
 		63A13F24169631EE007BB27E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A13F23169631EE007BB27E /* Foundation.framework */; };
 		63A13F26169631EE007BB27E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A13F25169631EE007BB27E /* CoreGraphics.framework */; };
@@ -26,12 +27,12 @@
 		63A13F5816963253007BB27E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A13F5716963253007BB27E /* Default-568h@2x.png */; };
 		63A13F5E16963324007BB27E /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A13F5C1696330A007BB27E /* GHUnitIOS.framework */; };
 		63A13F601696357E007BB27E /* TestMailcheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A13F5F1696357E007BB27E /* TestMailcheck.m */; };
-		63A13F63169635BB007BB27E /* Mailcheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A13F6216963589007BB27E /* Mailcheck.m */; };
-		63A13F64169635C6007BB27E /* Mailcheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A13F6216963589007BB27E /* Mailcheck.m */; };
 		63B79CCF169640D6009EBA25 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B79CCE169640D6009EBA25 /* QuartzCore.framework */; };
+		F772D5BC18A6B76900FDC6BA /* Mailcheck.m in Sources */ = {isa = PBXBuildFile; fileRef = F772D5BA18A6B76900FDC6BA /* Mailcheck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5982FBBE8DD54232A2F853C7 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		63A13F1D169631EE007BB27E /* MailcheckDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MailcheckDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A13F21169631EE007BB27E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		63A13F23169631EE007BB27E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -55,9 +56,10 @@
 		63A13F5716963253007BB27E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		63A13F5C1696330A007BB27E /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
 		63A13F5F1696357E007BB27E /* TestMailcheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestMailcheck.m; sourceTree = "<group>"; };
-		63A13F6116963589007BB27E /* Mailcheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mailcheck.h; sourceTree = "<group>"; };
-		63A13F6216963589007BB27E /* Mailcheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mailcheck.m; sourceTree = "<group>"; };
 		63B79CCE169640D6009EBA25 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		74459E94E2ED460EB0F22F61 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F772D5BA18A6B76900FDC6BA /* Mailcheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Mailcheck.m; path = ../../Mailcheck/Mailcheck.m; sourceTree = "<group>"; };
+		F772D5BB18A6B76900FDC6BA /* Mailcheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mailcheck.h; path = ../../Mailcheck/Mailcheck.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				63A13F22169631EE007BB27E /* UIKit.framework in Frameworks */,
 				63A13F24169631EE007BB27E /* Foundation.framework in Frameworks */,
 				63A13F26169631EE007BB27E /* CoreGraphics.framework in Frameworks */,
+				43BB78A9A5344A499B3B8BBA /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +97,7 @@
 				63A13F4716963253007BB27E /* Tests */,
 				63A13F20169631EE007BB27E /* Frameworks */,
 				63A13F1E169631EE007BB27E /* Products */,
+				5982FBBE8DD54232A2F853C7 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +117,7 @@
 				63A13F21169631EE007BB27E /* UIKit.framework */,
 				63A13F23169631EE007BB27E /* Foundation.framework */,
 				63A13F25169631EE007BB27E /* CoreGraphics.framework */,
+				74459E94E2ED460EB0F22F61 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,8 +125,8 @@
 		63A13F27169631EE007BB27E /* MailcheckDemo */ = {
 			isa = PBXGroup;
 			children = (
-				63A13F6116963589007BB27E /* Mailcheck.h */,
-				63A13F6216963589007BB27E /* Mailcheck.m */,
+				F772D5BA18A6B76900FDC6BA /* Mailcheck.m */,
+				F772D5BB18A6B76900FDC6BA /* Mailcheck.h */,
 				63A13F30169631EE007BB27E /* AppDelegate.h */,
 				63A13F31169631EE007BB27E /* AppDelegate.m */,
 				63A13F28169631EE007BB27E /* Supporting Files */,
@@ -173,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63A13F3B169631EF007BB27E /* Build configuration list for PBXNativeTarget "MailcheckDemo" */;
 			buildPhases = (
+				3E6AD84DA7D74B869324F19E /* Check Pods Manifest.lock */,
 				63A13F19169631EE007BB27E /* Sources */,
 				63A13F1A169631EE007BB27E /* Frameworks */,
 				63A13F1B169631EE007BB27E /* Resources */,
+				FE56F2B2FE34434295E48B3B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -255,13 +262,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E6AD84DA7D74B869324F19E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE56F2B2FE34434295E48B3B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		63A13F19169631EE007BB27E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63A13F63169635BB007BB27E /* Mailcheck.m in Sources */,
 				63A13F2E169631EE007BB27E /* main.m in Sources */,
+				F772D5BC18A6B76900FDC6BA /* Mailcheck.m in Sources */,
 				63A13F32169631EE007BB27E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,7 +310,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63A13F64169635C6007BB27E /* Mailcheck.m in Sources */,
 				63A13F4E16963253007BB27E /* main.m in Sources */,
 				63A13F601696357E007BB27E /* TestMailcheck.m in Sources */,
 			);
@@ -350,6 +389,7 @@
 		};
 		63A13F3C169631EF007BB27E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5982FBBE8DD54232A2F853C7 /* Pods.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -358,6 +398,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MailcheckDemo/MailcheckDemo-Prefix.pch";
 				INFOPLIST_FILE = "MailcheckDemo/MailcheckDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -365,6 +406,7 @@
 		};
 		63A13F3D169631EF007BB27E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5982FBBE8DD54232A2F853C7 /* Pods.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -373,6 +415,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MailcheckDemo/MailcheckDemo-Prefix.pch";
 				INFOPLIST_FILE = "MailcheckDemo/MailcheckDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

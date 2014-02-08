@@ -7,6 +7,7 @@
 //
 
 #import "Mailcheck.h"
+#import <NSString-Email/NSString+Email.h>
 
 @implementation Mailcheck
 
@@ -20,8 +21,28 @@ static int threshold;
     threshold = 3;
 }
 
++(NSDictionary *)check:(NSString *)email {
+    return [self check:email domains:defaultDomains topLevelDomains:defaultTopLevelDomains];
+}
+
++(NSDictionary *)check:(NSString *)email extraDomains:(NSArray *)domains extraTopLevelDomains:(NSArray *)topLevelDomains {
+    return [self check:email domains:[defaultDomains arrayByAddingObjectsFromArray:domains] topLevelDomains:[defaultTopLevelDomains arrayByAddingObjectsFromArray:topLevelDomains]];
+}
+
++(NSDictionary *)check:(NSString *)email domains:(NSArray *)domains topLevelDomains:(NSArray *)topLevelDomains {
+    NSDictionary *suggestion = [self suggest:email domains:domains topLevelDomains:topLevelDomains];
+    if(suggestion) {
+        return @{@"valid": @([email isEmail]), @"suggestion": suggestion};
+    }
+    return @{@"valid": @([email isEmail])};
+}
+
 +(NSDictionary *)suggest:(NSString *)email {
     return [self suggest:email domains:defaultDomains topLevelDomains:defaultTopLevelDomains];
+}
+
++(NSDictionary *)suggest:(NSString *)email extraDomains:(NSArray *)domains extraTopLevelDomains:(NSArray *)topLevelDomains {
+    return [self suggest:email domains:[defaultDomains arrayByAddingObjectsFromArray:domains] topLevelDomains:[defaultTopLevelDomains arrayByAddingObjectsFromArray:topLevelDomains]];
 }
 
 +(NSDictionary *)suggest:(NSString *)email domains:(NSArray *)domains topLevelDomains:(NSArray *)topLevelDomains {

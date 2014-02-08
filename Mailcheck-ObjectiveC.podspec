@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Mailcheck-ObjectiveC"
-  s.version      = "0.1"
+  s.version      = "0.2"
   s.summary      = "An Objective-C port of Kicksend's Mailcheck. Suggest corrections for misspelled email addresses."
   s.homepage     = "https://github.com/dkasper/Mailcheck-ObjectiveC"
 
@@ -14,4 +14,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Mailcheck/*.{h,m}'
 
   s.requires_arc = true
+
+  s.dependency     'NSString-Email'
 end
