@@ -34,7 +34,7 @@ NSDictionary *result = [Mailcheck check:@"test@hotnail.com"]
 
 Result will contain keys for "valid" and "suggestion"
 ```Objective-C
-{@valid": @(YES),
+{@"valid": @(YES),
  @"suggestion": {@"address": @"test",
                  @"domain":  @"hotmail.com",
                  @"full":    @"test@hotmail.com"}}
@@ -42,8 +42,8 @@ Result will contain keys for "valid" and "suggestion"
 
 Supply your own domain lists:
 ```Objective-C
-NSDictionary *result = [Mailcheck check:@"test@mydomain.co" extraDomains:@[@"mydomain.co] extraTopLevelDomains:@[@"co"]];
-NSDictionary *result = [Mailcheck check:@"test@mydomain.co" domains:@[@"mydomain.co] topLevelDomains:@[@"co"]];
+NSDictionary *result = [Mailcheck check:@"test@mydomain.co" extraDomains:@[@"mydomain.co"] extraTopLevelDomains:@[@"co"]];
+NSDictionary *result = [Mailcheck check:@"test@mydomain.co" domains:@[@"mydomain.co"] topLevelDomains:@[@"co"]];
 ```
 
 Check the MailcheckDemo or the GHUnit tests in TestMailcheck.m for more usage examples. You can run the tests by loading the demo project and selecting the Tests scheme.
