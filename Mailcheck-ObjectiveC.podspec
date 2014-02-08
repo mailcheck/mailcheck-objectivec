@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
 
   s.author       = { "David Kasper" => "dkasper@gmail.com" }
-  s.source       = { :git => "https://github.com/dkasper/Mailcheck-ObjectiveC.git", :tag => "0.1" }
+  s.source       = { :git => "https://github.com/dkasper/Mailcheck-ObjectiveC.git", :tag => "0.2" }
 
   s.platform     = :ios, '6.0'
 
