@@ -1,8 +1,7 @@
-Mailcheck Objective-C
+mailcheck - Objective-C
 ====================
 
-Library to suggest a correct domain when your users misspell it in an email address.
-Objective-C port of https://github.com/Kicksend/mailcheck
+The Objective-C library that suggests a right domain when your users misspell it in an email address. See the original at https://github.com/mailcheck/mailcheck.
 
 Usage
 -----
@@ -51,3 +50,13 @@ NSDictionary *result = [Mailcheck check:@"test@mydomain.co" extraDomains:@[@"myd
 ```
 
 Check the MailcheckDemo or the GHUnit tests in TestMailcheck.m for more usage examples. You can run the tests by loading the demo project and selecting the Tests scheme.
+
+Maintainers
+-------
+
+- David Kasper, [@dkasper](http://twitter.com/dkasper). Author.
+
+License
+-------
+
+Licensed under the MIT License.
