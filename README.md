@@ -1,7 +1,11 @@
-mailcheck - Objective-C
+Mailcheck - Objective-C
 ====================
 
 The Objective-C library that suggests a right domain when your users misspell it in an email address. See the original at https://github.com/mailcheck/mailcheck.
+
+When your user types in "user@hotnail.con", Mailcheck will suggest "user@hotmail.com".
+
+Mailcheck will offer up suggestions for top level domains too, and suggest ".com" when a user types in "user@hotmail.cmo".
 
 Usage
 -----
