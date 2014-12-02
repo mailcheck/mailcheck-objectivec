@@ -35,7 +35,7 @@ Customize the maximum edit distance. For instance with a threshold of 2:
 [Mailcheck check:@"dkasper@gmailll.com"]
 ````
 
-will return a suggestion of "dkasper@gmail.com". With a threshold of 1 no suggestion will be returned. The default value is 3.
+will return a suggestion of "dkasper@gmail.com". With a threshold of 1 no suggestion would be returned for this case. The default value is 3.
 
 New in 0.2
 ----------
