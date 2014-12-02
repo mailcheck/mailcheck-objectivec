@@ -15,5 +15,7 @@
 @property (strong, nonatomic) UITextField *textField;
 @property (strong, nonatomic) UIButton *checkButton;
 @property (strong, nonatomic) UILabel *resultLabel;
+@property (strong, nonatomic) UILabel *thresholdLabel;
+@property (strong, nonatomic) UIStepper *thresholdStepper;
 
 @end

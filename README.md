@@ -25,6 +25,15 @@ Otherwise the suggestion will be a dictionary like this:
  @"full":    @"test@hotmail.com"}
 ```
 
+New in 0.3
+----------
+
+Customize the maximum edit distance. For instance with a threshold of 2 [Mailcheck check:@"dkasper@gmailll.com"] will return a suggestion of "dkasper@gmail.com". With a threshold of 1 no suggestion will be returned. The default value is 3.
+
+```Objective-C
+[Mailcheck setThreshold:1]
+```
+
 New in 0.2
 ----------
 
