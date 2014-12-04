@@ -17,22 +17,23 @@
 		63A13F34169631EE007BB27E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A13F33169631EE007BB27E /* Default.png */; };
 		63A13F36169631EF007BB27E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A13F35169631EF007BB27E /* Default@2x.png */; };
 		63A13F38169631EF007BB27E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A13F37169631EF007BB27E /* Default-568h@2x.png */; };
-		63A13F4416963253007BB27E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A13F21169631EE007BB27E /* UIKit.framework */; };
-		63A13F4516963253007BB27E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A13F23169631EE007BB27E /* Foundation.framework */; };
-		63A13F4616963253007BB27E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A13F25169631EE007BB27E /* CoreGraphics.framework */; };
-		63A13F4C16963253007BB27E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63A13F4A16963253007BB27E /* InfoPlist.strings */; };
-		63A13F4E16963253007BB27E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A13F4D16963253007BB27E /* main.m */; };
-		63A13F5416963253007BB27E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A13F5316963253007BB27E /* Default.png */; };
-		63A13F5616963253007BB27E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A13F5516963253007BB27E /* Default@2x.png */; };
-		63A13F5816963253007BB27E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A13F5716963253007BB27E /* Default-568h@2x.png */; };
-		63A13F5E16963324007BB27E /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A13F5C1696330A007BB27E /* GHUnitIOS.framework */; };
-		63A13F601696357E007BB27E /* TestMailcheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A13F5F1696357E007BB27E /* TestMailcheck.m */; };
-		63B79CCF169640D6009EBA25 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B79CCE169640D6009EBA25 /* QuartzCore.framework */; };
+		F71441DF1A2F75EA001F6F68 /* MailcheckDemo_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F71441DE1A2F75EA001F6F68 /* MailcheckDemo_Tests.m */; };
 		F772D5BC18A6B76900FDC6BA /* Mailcheck.m in Sources */ = {isa = PBXBuildFile; fileRef = F772D5BA18A6B76900FDC6BA /* Mailcheck.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F71441E01A2F75EA001F6F68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63A13F14169631EE007BB27E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63A13F1C169631EE007BB27E;
+			remoteInfo = MailcheckDemo;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		5982FBBE8DD54232A2F853C7 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		0035E4A34E180A09262CECE2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		592BF23E6D3E9C9B871792A7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		63A13F1D169631EE007BB27E /* MailcheckDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MailcheckDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A13F21169631EE007BB27E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		63A13F23169631EE007BB27E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -46,7 +47,6 @@
 		63A13F33169631EE007BB27E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		63A13F35169631EF007BB27E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		63A13F37169631EF007BB27E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		63A13F4216963253007BB27E /* Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A13F4916963253007BB27E /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		63A13F4B16963253007BB27E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		63A13F4D16963253007BB27E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -55,9 +55,11 @@
 		63A13F5516963253007BB27E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		63A13F5716963253007BB27E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		63A13F5C1696330A007BB27E /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
-		63A13F5F1696357E007BB27E /* TestMailcheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestMailcheck.m; sourceTree = "<group>"; };
 		63B79CCE169640D6009EBA25 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		74459E94E2ED460EB0F22F61 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71441DA1A2F75EA001F6F68 /* MailcheckDemo Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MailcheckDemo Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71441DD1A2F75EA001F6F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F71441DE1A2F75EA001F6F68 /* MailcheckDemo_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailcheckDemo_Tests.m; sourceTree = "<group>"; };
 		F772D5BA18A6B76900FDC6BA /* Mailcheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Mailcheck.m; path = ../../Mailcheck/Mailcheck.m; sourceTree = "<group>"; };
 		F772D5BB18A6B76900FDC6BA /* Mailcheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mailcheck.h; path = ../../Mailcheck/Mailcheck.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,15 +76,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63A13F3F16963253007BB27E /* Frameworks */ = {
+		F71441D71A2F75EA001F6F68 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63B79CCF169640D6009EBA25 /* QuartzCore.framework in Frameworks */,
-				63A13F4416963253007BB27E /* UIKit.framework in Frameworks */,
-				63A13F4516963253007BB27E /* Foundation.framework in Frameworks */,
-				63A13F4616963253007BB27E /* CoreGraphics.framework in Frameworks */,
-				63A13F5E16963324007BB27E /* GHUnitIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,9 +92,10 @@
 				63B79CCE169640D6009EBA25 /* QuartzCore.framework */,
 				63A13F27169631EE007BB27E /* MailcheckDemo */,
 				63A13F4716963253007BB27E /* Tests */,
+				F71441DB1A2F75EA001F6F68 /* MailcheckDemo Tests */,
 				63A13F20169631EE007BB27E /* Frameworks */,
 				63A13F1E169631EE007BB27E /* Products */,
-				5982FBBE8DD54232A2F853C7 /* Pods.xcconfig */,
+				B60FBD85698FE0B7A4CDBF45 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,7 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				63A13F1D169631EE007BB27E /* MailcheckDemo.app */,
-				63A13F4216963253007BB27E /* Tests.app */,
+				F71441DA1A2F75EA001F6F68 /* MailcheckDemo Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,7 +149,6 @@
 		63A13F4716963253007BB27E /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				63A13F5F1696357E007BB27E /* TestMailcheck.m */,
 				63A13F4816963253007BB27E /* Supporting Files */,
 			);
 			path = Tests;
@@ -167,6 +164,32 @@
 				63A13F5316963253007BB27E /* Default.png */,
 				63A13F5516963253007BB27E /* Default@2x.png */,
 				63A13F5716963253007BB27E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B60FBD85698FE0B7A4CDBF45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				592BF23E6D3E9C9B871792A7 /* Pods.debug.xcconfig */,
+				0035E4A34E180A09262CECE2 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F71441DB1A2F75EA001F6F68 /* MailcheckDemo Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F71441DE1A2F75EA001F6F68 /* MailcheckDemo_Tests.m */,
+				F71441DC1A2F75EA001F6F68 /* Supporting Files */,
+			);
+			path = "MailcheckDemo Tests";
+			sourceTree = "<group>";
+		};
+		F71441DC1A2F75EA001F6F68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F71441DD1A2F75EA001F6F68 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -193,22 +216,23 @@
 			productReference = 63A13F1D169631EE007BB27E /* MailcheckDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		63A13F4116963253007BB27E /* Tests */ = {
+		F71441D91A2F75EA001F6F68 /* MailcheckDemo Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63A13F5916963253007BB27E /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildConfigurationList = F71441E21A2F75EA001F6F68 /* Build configuration list for PBXNativeTarget "MailcheckDemo Tests" */;
 			buildPhases = (
-				63A13F3E16963253007BB27E /* Sources */,
-				63A13F3F16963253007BB27E /* Frameworks */,
-				63A13F4016963253007BB27E /* Resources */,
+				F71441D61A2F75EA001F6F68 /* Sources */,
+				F71441D71A2F75EA001F6F68 /* Frameworks */,
+				F71441D81A2F75EA001F6F68 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F71441E11A2F75EA001F6F68 /* PBXTargetDependency */,
 			);
-			name = Tests;
-			productName = Tests;
-			productReference = 63A13F4216963253007BB27E /* Tests.app */;
-			productType = "com.apple.product-type.application";
+			name = "MailcheckDemo Tests";
+			productName = "MailcheckDemo Tests";
+			productReference = F71441DA1A2F75EA001F6F68 /* MailcheckDemo Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -218,6 +242,12 @@
 			attributes = {
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "David Kasper";
+				TargetAttributes = {
+					F71441D91A2F75EA001F6F68 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 63A13F1C169631EE007BB27E;
+					};
+				};
 			};
 			buildConfigurationList = 63A13F17169631EE007BB27E /* Build configuration list for PBXProject "MailcheckDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -232,7 +262,7 @@
 			projectRoot = "";
 			targets = (
 				63A13F1C169631EE007BB27E /* MailcheckDemo */,
-				63A13F4116963253007BB27E /* Tests */,
+				F71441D91A2F75EA001F6F68 /* MailcheckDemo Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -249,14 +279,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63A13F4016963253007BB27E /* Resources */ = {
+		F71441D81A2F75EA001F6F68 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63A13F4C16963253007BB27E /* InfoPlist.strings in Resources */,
-				63A13F5416963253007BB27E /* Default.png in Resources */,
-				63A13F5616963253007BB27E /* Default@2x.png in Resources */,
-				63A13F5816963253007BB27E /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +316,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -306,16 +332,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63A13F3E16963253007BB27E /* Sources */ = {
+		F71441D61A2F75EA001F6F68 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63A13F4E16963253007BB27E /* main.m in Sources */,
-				63A13F601696357E007BB27E /* TestMailcheck.m in Sources */,
+				F71441DF1A2F75EA001F6F68 /* MailcheckDemo_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F71441E11A2F75EA001F6F68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63A13F1C169631EE007BB27E /* MailcheckDemo */;
+			targetProxy = F71441E01A2F75EA001F6F68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		63A13F2A169631EE007BB27E /* InfoPlist.strings */ = {
@@ -389,7 +422,7 @@
 		};
 		63A13F3C169631EF007BB27E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5982FBBE8DD54232A2F853C7 /* Pods.xcconfig */;
+			baseConfigurationReference = 592BF23E6D3E9C9B871792A7 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -406,7 +439,7 @@
 		};
 		63A13F3D169631EF007BB27E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5982FBBE8DD54232A2F853C7 /* Pods.xcconfig */;
+			baseConfigurationReference = 0035E4A34E180A09262CECE2 /* Pods.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -421,43 +454,70 @@
 			};
 			name = Release;
 		};
-		63A13F5A16963253007BB27E /* Debug */ = {
+		F71441E31A2F75EA001F6F68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
 				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "MailcheckDemo Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MailcheckDemo.app/MailcheckDemo";
 			};
 			name = Debug;
 		};
-		63A13F5B16963253007BB27E /* Release */ = {
+		F71441E41A2F75EA001F6F68 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "MailcheckDemo Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MailcheckDemo.app/MailcheckDemo";
 			};
 			name = Release;
 		};
@@ -482,11 +542,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63A13F5916963253007BB27E /* Build configuration list for PBXNativeTarget "Tests" */ = {
+		F71441E21A2F75EA001F6F68 /* Build configuration list for PBXNativeTarget "MailcheckDemo Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63A13F5A16963253007BB27E /* Debug */,
-				63A13F5B16963253007BB27E /* Release */,
+				F71441E31A2F75EA001F6F68 /* Debug */,
+				F71441E41A2F75EA001F6F68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

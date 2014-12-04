@@ -10,31 +10,31 @@
 	<string>MailcheckDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>D73DED85-7A2E-4FC9-B81A-9257CA9BC086</key>
-		<string>ssh://github.com/dkasper/Mailcheck-ObjectiveC.git</string>
+		<key>F54DC3B83EF0CBF80946A874F6684EC4D2EA6E84</key>
+		<string>https://github.com/mailcheck/mailcheck-objectivec.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>MailcheckDemo/MailcheckDemo.xcodeproj/project.xcworkspace</string>
+	<string>MailcheckDemo/MailcheckDemo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>D73DED85-7A2E-4FC9-B81A-9257CA9BC086</key>
+		<key>F54DC3B83EF0CBF80946A874F6684EC4D2EA6E84</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/dkasper/Mailcheck-ObjectiveC.git</string>
+	<string>https://github.com/mailcheck/mailcheck-objectivec.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D73DED85-7A2E-4FC9-B81A-9257CA9BC086</string>
+	<string>F54DC3B83EF0CBF80946A874F6684EC4D2EA6E84</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>D73DED85-7A2E-4FC9-B81A-9257CA9BC086</string>
+			<string>F54DC3B83EF0CBF80946A874F6684EC4D2EA6E84</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Mailcheck-ObjectiveC</string>
+			<string>mailcheck-objectivec</string>
 		</dict>
 	</array>
 </dict>
