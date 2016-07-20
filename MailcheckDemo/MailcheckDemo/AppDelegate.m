@@ -22,18 +22,31 @@
     self.textField.placeholder = @"test@example.com";
     [self.window addSubview:self.textField];
     
+    self.thresholdLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, CGRectGetMaxY(self.textField.frame) + 15, 200, 20)];
+    self.thresholdStepper = [[UIStepper alloc] initWithFrame:CGRectMake(220, CGRectGetMaxY(self.textField.frame) + 10, 94, 20)];
+    self.thresholdStepper.value = 3;
+    [self.thresholdStepper addTarget:self action:@selector(step:) forControlEvents:UIControlEventValueChanged];
+    self.thresholdLabel.text = [NSString stringWithFormat:@"Threshold: %d", (int)self.thresholdStepper.value];
+    [self.window addSubview:self.thresholdLabel];
+    [self.window addSubview:self.thresholdStepper];
+    
     self.checkButton = [UIButton buttonWithType:UIButtonTypeSystem];
     [self.checkButton setTitle:@"Check" forState:UIControlStateNormal];
     [self.checkButton addTarget:self action:@selector(check:) forControlEvents:UIControlEventTouchUpInside];
-    self.checkButton.frame = CGRectMake(20, 60, 280, 40);
+    self.checkButton.frame = CGRectMake(20, CGRectGetMaxY(self.thresholdStepper.frame) + 10, 280, 40);
     [self.window addSubview:self.checkButton];
     
-    self.resultLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 110, 280, 60)];
+    self.resultLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, CGRectGetMaxY(self.checkButton.frame) + 10, 280, 60)];
     self.resultLabel.numberOfLines = 3;
     [self.window addSubview:self.resultLabel];
     
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (void)step:(id)sender {
+    [Mailcheck setThreshold:self.thresholdStepper.value];
+    self.thresholdLabel.text = [NSString stringWithFormat:@"Threshold: %d", (int)self.thresholdStepper.value];
 }
 
 -(void)check:(id)sender {

@@ -21,6 +21,10 @@ static NSInteger threshold;
     threshold = 3;
 }
 
++(void)setThreshold:(NSInteger)newThreshold {
+    threshold = newThreshold;
+}
+
 +(NSDictionary *)check:(NSString *)email {
     return [self check:email domains:defaultDomains topLevelDomains:defaultTopLevelDomains];
 }
