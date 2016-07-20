@@ -7,6 +7,8 @@ When your user types in "user@hotnail.con", Mailcheck will suggest "user@hotmail
 
 Mailcheck will offer up suggestions for top level domains too, and suggest ".com" when a user types in "user@hotmail.cmo".
 
+mailcheck-objectivec is part of the [Mailcheck family](http://getmailcheck.org), and we're always on the lookout for more ports and adaptions. Get in touch!
+
 Usage
 -----
 
